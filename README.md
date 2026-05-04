@@ -39,12 +39,12 @@ claude plugin update agent-skills-android@guillemroca
    ```json
    {
      "name": "my-new-plugin",
-     "version": "0.1.0",
      "description": "...",
      "source": { "source": "github", "repo": "GuillemRoca/my-new-plugin" }
    }
    ```
-3. Bump and push.
+   The plugin's own `plugin.json` declares the version — omitting it here lets updates propagate automatically.
+3. Push.
 
 ## License
 
